@@ -1,0 +1,335 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>SampleQuestions2</title>
+</head>
+<body>
+    <h1>SampleQuestions2 by Julia König</h1>
+
+    <h1>HTML</h1>
+    <h2>Components of html elements</h2>
+    <p>!DOCTYPE html <br /> html <br /> head <br />title <br /> body</p>
+
+    <p><strong>Identify void elements and how they are denoted:</strong></p>
+    <p>They recommend lowercase in HTML and are denoted as W3C.</p>
+
+    <h2>Identify attributes</h2>
+    <p>
+        All HTML elements can have attributes
+        Attributes provide additional information about an element
+        Attributes are always specified in the start tag
+        Attributes usually come in name/value pairs like: name="value"
+    </p>
+    <p><strong>The href Attribute:</strong></p>
+    <a href="https://github.com/if-03-01-B-fall-2018/reading-assignment-2-juliakoenig2ahif/blob/master/SampleQuestions.md"> ReadingAssignment2</a>
+
+    <p><strong>The src Attribute:</strong></p>
+    <img src="https://bilder.t-online.de/b/84/93/82/46/id_84938246/920/tid_da/eichhoernchen-geert-weggen-zeigt-die-welt-der-kleinen-nager-.jpg" />
+
+    <p><strong>The width and height Attributes:</strong></p>
+    <img scr="https://bilder.t-online.de/b/84/93/82/46/id_84938246/920/tid_da/eichhoernchen-geert-weggen-zeigt-die-welt-der-kleinen-nager-.jpg" width="200" height="100" />
+
+    <p><strong>The alt Attributes:</strong></p>
+    <img src="https://bilder.t-online.de/b/84/93/82/46/id_84938246/920/tid_da/eichhoernchen-geert-weggen-zeigt-die-welt-der-kleinen-nager-.jpg" alt="Eichhörnchen" />
+
+    <p><strong>The style Attributes:</strong></p>
+    <p style="color:red">This is a paragraph.</p>
+
+    <p><strong>The lang Attributes:</strong></p>
+    <p> lang="en-US"</p>
+
+    <p><strong>The tile Attribute</strong></p>
+    <p title="I'm a tooltip">Scream!</p>
+
+    <h2>Correct DOCTYPE of html</h2>
+    <p></p>
+    <h2>Syntactically Correct Statements:</h2>
+
+    <p><strong>Article:</strong></p>
+    <p>The <article>>article<</article> tag specifies independent, self-contained content</p>
+
+    <p><strong>Body:</strong></p>
+    <p>>body< The content >/body<</p>
+
+    <p><strong>Line Break</strong></p>
+    <p>A paragraph<br /> with line <br />break</p>
+
+    <p><strong>Headings:</strong></p>
+    <h1>H1</h1>
+    <h2>H2</h2>
+    <h3>H3</h3>
+    <h4>H4</h4>
+    <h5>H5</h5>
+    <h6>H6</h6>
+
+    <p><strong>Section with meta-information</strong></p>
+    <p>The HTML >head< element is a container for metadata. Metadata is not displayed</p>
+    <p>It is placed between the >html< tag and the >body< tag</p>
+    <p>>head< >meta charset ="utf-8"/> >/head<</p>
+
+    <p><strong>Top Level Element:</strong></p>
+    <p>>html< head body >/html<</p>
+
+    <p><strong>Image Named:</strong></p>
+    <p>Under Attributes -> alt</p>
+
+    <p><strong>Paragraph</strong></p>
+    <p>>p< text >/p<</p>
+
+    <p><strong>Section</strong></p>
+    <section>Tag defines the section of documents such as chapters</section>
+
+    <p><strong>Label appearing in the title bar:</strong></p>
+    <p>>title< Sheet >/title<</p>
+
+    <p><strong>Link to other pages</strong></p>
+    <p>First paragraph unter >a<</p>
+
+    <p><strong>Comment</strong></p>
+    <p><!--Comments--> >!-- This is how you make commands --<</p>
+
+    <h1>CSS</h1>
+
+    <h2>Components of a CSS rule</h2>
+    <p>selector and a declaration block</p>
+    <p>he selector points to the HTML element you want to style</p>
+    <p>The declaration block contains one or more declarations separated by semicolons</p>
+    <p>Each declaration includes a CSS property name and a value, separted ba a colon</p>
+    <p>h1 {color:blue; font-size:12px;}</p>
+
+    <h2>Use combinators properly: direct child, descendant, adjacent sibling, sibling</h2>
+    <p>
+        escendant selector (space)<br />
+        div p { <br />
+        background-color: yellow; <br />
+        }
+    </p>
+
+    <p>
+        child selector (>) <br />
+        div > p { <br />
+        background-color: yellow; <br />
+        }
+    </p>
+
+    <p>
+        adjacent sibling selector (+) <br />
+        div + p { <br />
+        background-color: yellow; <br />
+        }
+    </p>
+
+    <p>
+        general sibling selector (~) <br />
+        div ~ p {<br />
+        background-color: yellow; <br />
+        }
+    </p>
+
+    <h2>Specify colors by color names and in hexadecimal notation</h2>
+    <p style="background-color:tomato">Tomate</p>
+    <p style="background-color:rgb(255,99,71)">255,99,71</p>
+    <p style="background-color:dodgerblue">DodgerBlue</p>
+    <p style="background-color:rgb(10,125,255)">10,125,255</p>
+    <p style="background-color:mediumseagreen">MediumSeaGreen</p>
+    <p style="color:rgb(60,179,113)">60,179,255</p>
+
+    <h2>Declaration for color - background color</h2>
+    <p>Here, the >h1<, >p<, and >div< elements will have different background colors</p>
+
+    <p>Color:</p>
+
+    <p>
+        h1 { <br />
+        color: white; <br />
+        }
+    </p>
+
+    <p>
+        div {<br />
+        color: green;<br />
+        }
+    </p>
+
+    <p>
+        p {<br />
+        color: green;<br />
+        }
+    </p>
+
+    <p>Background Color:</p>
+
+    <p>
+        h1 {<br />
+        background-color: green;<br />
+        }
+    </p>
+
+    <p>
+        div {<br />
+        background-color: green;<br />
+        }
+    </p>
+
+    <p>
+        p {<br />
+        background-color: green;<br />
+        }
+    </p>
+
+    <h2>Pseudo classes for the >a< element</h2>
+
+    <p>
+        unvisited link<br />
+        a:link {<br />
+        color: #FF0000;<br />
+        }
+    </p>
+
+    <p>
+        visited link<br />
+        a:visited {<br />
+        color: #00FF00;<br />
+        }
+    </p>
+
+    <p>
+        mouse over link<br />
+        a:hover {<br />
+        color: #FF00FF;<br />
+        }
+    </p>
+
+    <p>
+        selected link<br />
+        a:active {<br />
+        color: #0000FF;<br />
+        }
+    </p>
+
+    <h2>Declaration for background image</h2>
+    <p>
+        body {<br />
+        background-image: url("paper.gif");<br />
+        }
+    </p>
+
+    <h2>Declaration for text alignment (right, left, center, justify)</h2>
+    <p>
+        h1 {<br />
+        text-align: center;<br />
+        }
+    </p>
+
+    <p>
+        h2 {<br />
+        text-align: left;<br />
+        }
+    </p>
+
+    <p>
+        h3 {<br />
+        text-align: right;<br />
+        }
+    </p>
+
+    <p>
+        div {<br />
+        text-align: justify;<br />
+        }
+    </p>
+
+    <h2>Declaration for text decoration(overline, underline, line-through)</h2>
+
+    <p>
+        h1 {<br />
+        text-decoration: overline;<br />
+        }
+    </p>
+
+    <p>
+        h2 {<br />
+        text-decoration: line-through;<br />
+        }
+    </p>
+
+    <p>
+        h3 {<br />
+        text-decoration: underline;<br />
+        }
+    </p>
+
+    <h2>Declaration for text transforamtion (uppercase, lowercase, capitalize)</h2>
+
+    <p>
+        p.uppercase {<br />
+        text-transform: uppercase;<br />
+        }
+    </p>
+
+    <p>
+        p.lowercase {<br />
+        text-transform: lowercase;<br />
+        }
+    </p>
+
+    <p>
+        p.capitalize {<br />
+        text-transform: capitalize;<br />
+        }
+    </p>
+
+    <h2>Identify the difference between serif and sans-serif fonts</h2>
+    <p>On computer screens, sans-serif fonts are considered easier to read than serif fonts.</p>
+
+    <h2>Declarations for font families</h2>
+    <p>
+        p {<br />
+        font-family: "Times New Roman", Times, serif;<br />
+        }
+    </p>
+
+    <h2>Declarations for font style normal and italic</h2>
+    <p>
+        p.normal {<br />
+        font-style: normal;<br />
+        }
+    </p>
+
+    <p>
+        p.italic {<br />
+        font-style: italic;<br />
+        }
+    </p>
+
+    <h2>Declarations for font sizes</h2>
+    <p> With EM or pixels</p>
+
+    <p>
+        h1 {<br />
+        font-size: 40px;<br />
+        }
+    </p>
+
+    <p>
+        h1 {<br />
+        font-size: 2.5em; (40px/16=2.5em)<br />
+        }
+    </p>
+
+    <h2>Declarations for font weights</h2>
+
+    <p>
+        p.normal {<br />
+        font-weight: normal;<br />
+        }
+    </p>
+
+    <p>
+        p.thick {<br />
+        font-weight: bold;<br />
+        }
+    </p>
+</body>
+</html>
